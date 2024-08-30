@@ -1,0 +1,31 @@
+raspberry pi
+
+最大可以显示800*480像素大小的七色图片。
+
+1.可以画点、线、矩形、圆形等一些简单几何图形的绘制（支持多种颜色，图形内部可选择填充颜色）。
+2.可以显示英文、数字字符，提供多种大小的字符。
+3.可以直接从指定文件夹下读取图片信息（且支持bmp，jpg，png，gif，tif等多种格式）
+4.对读取的图片大小没有要求，例程会自动转换。
+5.用户可以对读取的图片进行90度、180度、270度旋转操作。
+6.在raspberry pi例程中使用了抖动算法进行颜色转换，用户可以直接导入bmp，jpg，png，gif，tif等多种格式的图片。
+特别提示，
+如果你觉得我们提供的颜色转换函数效果不好，请按照用户使用手册上的图片处理步骤自行转换。
+
+
+
+
+
+
+It can display seven-color pictures with a maximum size of 800*480 pixels.
+
+1. You can draw some simple geometric figures such as points, lines, rectangles, circles, etc. 
+     (supports multiple colors, and the fill color can be selected inside the figure).
+2. Can display English and numeric characters, providing characters of various sizes.
+3. Picture information can be read directly from the specified folder (and supports bmp, jpg, png, gif, tif and other formats)
+4. There is no requirement for the size of the image to be read, and the routine will automatically convert it.
+5. Users can rotate the read pictures 90 degrees, 180 degrees, and 270 degrees.
+6. The dithering algorithm is used in the raspberry pi routine for color conversion. 
+    Users can directly import pictures in various formats such as bmp, jpg, png, gif, tif, etc.
+Special Note,
+If you feel that the color conversion function we provide is not effective, 
+please follow the image processing steps in the user manual to convert it yourself.

@@ -1,0 +1,28 @@
+STM32f103c8t6
+Flash 存储空间：64 KB
+SRAM（静态随机存取存储器）：20 KB
+功能：
+1.最大可以显示460*276像素大小的七色图片。（占用约62kb的Flash）
+2.可以创建面积≤39000的矩形空白图像（占用约19.5kb的SRAM），在空白图像范围内可以显示字符和简单的几何图形，支持七种色。
+3.
+请注意:
+1.用户创建的图像不得超过19.5kb
+2.显示图像的起始坐标（X，Y），必须满足X+Width≤800&&X+ Height≤480。
+3.在空白图像中的绘制的字符、几何图形不得超出所定义图像的范围，要考虑到字符串的长度。
+
+
+
+STM32f103c8t6
+Flash memory: 64 KB
+SRAM (Static Random Access Memory): 20 KB
+Function:
+1. It can display seven-color pictures with a maximum size of 460*276 pixels. (Occupies about 62kb of Flash)
+2. A rectangular blank image with an area of ≤39,000 can be created (occupying about 19.5kb of SRAM). 
+Characters and simple geometric figures can be displayed within the blank image range, and seven colors are supported.
+3.
+Please note:
+1. User-created images must not exceed 19.5kb
+2. The starting coordinates (X, Y) of the displayed image must satisfy X+Width≤800&&X+ Height≤480.
+3. The characters and geometric figures drawn in the blank image must not exceed the scope of the defined image,
+ and the length of the string must be taken into consideration.
+

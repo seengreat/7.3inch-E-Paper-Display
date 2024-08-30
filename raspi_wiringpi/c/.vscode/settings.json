@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "7in3_epd.h": "c",
+        "color_conversion.h": "c",
+        "math.h": "c"
+    }
+}

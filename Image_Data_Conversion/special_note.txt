@@ -1,0 +1,6 @@
+这是一个图片取模例程，
+它的作用是把处理完成的24位bmp图片转换成数组数据的形式，用于在arduino 和stm32例程中使用。
+
+
+This is a picture modulus routine. 
+Its function is to convert the processed 24-bit bmp picture into the form of array data for use in arduino and stm32 routines.
